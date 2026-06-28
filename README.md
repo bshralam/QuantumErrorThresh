@@ -11,7 +11,7 @@ Python, Stim, PyMatching, NumPy, Matplotlib.
 
 ## Features
 
-The pipeline first constructs a rotated-surface-code memory circuit and its qubit scaling, then decodes the syndrome via minimum-weight perfect matching (MWPM). It sweeps the physical error rate across code distances to locate the threshold, and maps a logical error budget to the required distance, physical-qubit count, and runtime (the FTQC resource layer). Each stage is a standalone notebook: `01_build_circuit`, `02_decode_mwpm`, `03_threshold_sweep`, `04_resource_estimation_link`.
+The pipeline first constructs a rotated-surface-code memory circuit and its qubit scaling(`01_build_circuit`), then decodes the syndrome via minimum-weight perfect matching (MWPM)(`02_decode_mwpm`). It then sweeps the physical error rate across code distances (`03_threshold_sweep`) to locate the threshold, and maps a logical error budget (`04_resource_estimation_link`) to the required distance, physical-qubit count, and runtime (the FTQC resource layer).
 
 ## Results
 
